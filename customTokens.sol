@@ -9,7 +9,7 @@ contract MyToken is ERC20, Ownable {
         // The ERC20 constructor from OpenZeppelin sets the initial total supply and assigns all tokens to the deployer.
     }
 
-    // Mint new tokens and send them to the provided address.
+    // Mint new tokens and send them to the provided address. Only the contract owner can call this function.
     function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
     }
