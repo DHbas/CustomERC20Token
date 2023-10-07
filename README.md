@@ -20,13 +20,13 @@ To use this smart contract, you need to interact with it on the Ethereum blockch
 
 Here are the general steps for interacting with the MyToken contract after it's deployed:
 
-Initialize the Token: During contract deployment, you'll need to provide a name and symbol for your token. These parameters are passed to the constructor of the `MyToken` contract.
+1. Initialize the Token: During contract deployment, you'll need to provide a name and symbol for your token. These parameters are passed to the constructor of the `MyToken` contract.
 
-Minting Tokens: The owner of the contract (the address that deployed it) has the exclusive ability to mint new tokens. This can be done using the `mint` function, which takes the recipient's address and the amount of tokens to mint as parameters.
+2. Minting Tokens: The owner of the contract (the address that deployed it) has the exclusive ability to mint new tokens. This can be done using the `mint` function, which takes the recipient's address and the amount of tokens to mint as parameters.
 
-Burning Tokens: Any token holder can burn their own tokens using the `burn` function. This function allows you to reduce the total supply by specifying the number of tokens to burn.
+3. Burning Tokens: Any token holder can burn their own tokens using the `burn` function. This function allows you to reduce the total supply by specifying the number of tokens to burn.
 
-Transferring Tokens: You can transfer tokens between addresses using the `transfer` and `transferFrom` functions. The `transfer` function allows you to send tokens directly from your address to another address. The `transferFrom` function allows you to send tokens on behalf of someone else if you have been given permission.
+4. Transferring Tokens: You can transfer tokens between addresses using the `transfer` and `transferFrom` functions. The `transfer` function allows you to send tokens directly from your address to another address. The `transferFrom` function allows you to send tokens on behalf of someone else if you have been given permission.
 
 ## Help
 
