@@ -26,7 +26,7 @@ Here are the general steps for interacting with the MyToken contract after it's 
 
 3. Burning Tokens: Any token holder can burn their own tokens using the `burn` function. This function allows you to reduce the total supply by specifying the number of tokens to burn.
 
-4. Transferring Tokens: You can transfer tokens between addresses using the `transfer` and `transferFrom` functions. The `transfer` function allows you to send tokens directly from your address to another address. The `transferFrom` function allows you to send tokens on behalf of someone else if you have been given permission.
+4. Transferring Tokens: You can transfer tokens between addresses using the `transfer` function. The `transfer` function allows you to send tokens directly from your address to another address. 
 
 ## Help
 
